@@ -11,6 +11,7 @@ mod discord;
 mod logger;
 mod model;
 mod smtc_core;
+mod thumbnail;
 
 use model::{
     DiscordConfigPayload, MetadataPayload, PlayModePayload, PlayStatePayload, TimelinePayload,

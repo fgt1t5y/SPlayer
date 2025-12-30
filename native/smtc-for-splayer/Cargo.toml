@@ -19,7 +19,7 @@ tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
 tracing-appender = "0.2"
 
 [target.'cfg(windows)'.dependencies]
-windows = { version = "0.62", features = ["Media_Playback", "Storage_Streams"] }
+windows = { version = "0.62", features = ["Media_Playback", "Storage_Streams", "Win32_Graphics_Dwm", "Win32_Graphics_Gdi"] }
 
 tokio = { version = "1", features = ["full"] }
 discord-rich-presence = "1.0.0"
